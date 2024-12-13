@@ -1,0 +1,24 @@
+{
+  "name": "apipractica1114463",
+  "version": "1.0.0",
+  "description": "Practica 1 Para desarrollo web",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "set NODE_ENV=development&& nodemon src/app.js",
+    "prod": "set NODE_ENV=production&& nodemon src/app.js",
+    "qa": "set NODE_ENV=qas&& nodemon src/app.js"
+  },
+  "author": "Juan Luis Capellan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mssql": "^11.0.1",
+    "nodemon": "^3.1.7",
+    "path": "^0.12.7"
+  }
+}
